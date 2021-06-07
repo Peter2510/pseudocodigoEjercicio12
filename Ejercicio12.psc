@@ -27,6 +27,13 @@ Algoritmo Ejercicio12
 			Escribir  "Ingrese la edad"
 			leer edad
 			
+			contadorF = contadorF + 1
+			contadorEdad = contadorEdad + edad
+			sumaAlturaF = sumaAlturaF + altura
+			sumaEdadF = sumaEdadF + edad
+			PromedioAlturaF = sumaAlturaF / contadorF
+			promedioEdad =(sumaEdadF +sumaEdadM) /(contadorM +contadorF)
+			
 			
 		Fin Si
 		

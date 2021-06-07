@@ -23,7 +23,7 @@ Algoritmo Ejercicio12
 			promedioEdad =(sumaEdadF +sumaEdadM) /(contadorM +contadorF)
 			
 		SiNo
-			s
+			
 		Fin Si
 		
 		Escribir "Ingrese la altura"

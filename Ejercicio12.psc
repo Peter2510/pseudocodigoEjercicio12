@@ -8,7 +8,23 @@ Algoritmo Ejercicio12
 	leer altura
 	
 	Mientras altura > 0 Hacer
-		Escribir  "Hola"
+		
+		Escribir  "Ingrese la edad"
+		leer edad
+		
+		Escribir "Ingrese f si eres mujer o m si eres Hombre"
+		leer sexo
+		
+		Si sexo = m Entonces
+			contadorM = contadorM + 1
+			sumaAlturaM = sumaAlturaM + altura
+			sumaEdadM = sumaEdadM + edad
+			PromedioAlturaM = sumaAlturaM / contadorM
+			promedioEdad =(sumaEdadF +sumaEdadM) /(contadorM +contadorF)
+			
+		SiNo
+			s
+		Fin Si
 		
 		Escribir "Ingrese la altura"
 		leer altura
